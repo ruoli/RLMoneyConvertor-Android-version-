@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Convert From:"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromCountryCurrencyFlag"
+        android:layout_gravity="center"
+        android:src="@drawable/gbp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromCurrencyAmount"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Convert To:"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toCountryCurrencyFlag"
+        android:layout_gravity="center"
+        android:src="@drawable/usd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toCurrencyAmount"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go!"
+        android:id="@+id/convertGOButton"
+        android:layout_gravity="center" />
+</LinearLayout>

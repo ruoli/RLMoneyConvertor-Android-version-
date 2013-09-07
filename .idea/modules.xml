@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RLMoneyConverter/RLMoneyConverter.iml" filepath="$PROJECT_DIR$/RLMoneyConverter/RLMoneyConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RLMoneyConverterProject.iml" filepath="$PROJECT_DIR$/RLMoneyConverterProject.iml" />
+    </modules>
+  </component>
+</project>
+

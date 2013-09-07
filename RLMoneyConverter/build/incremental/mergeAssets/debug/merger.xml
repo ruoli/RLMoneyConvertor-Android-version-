@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/apple/Dropbox/MOBILE PROJECTS/Android/RL APPS/RLMoneyConverterProject/RLMoneyConverter/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/apple/Dropbox/MOBILE PROJECTS/Android/RL APPS/RLMoneyConverterProject/RLMoneyConverter/src/debug/assets" />
+    </dataSet>
+
+</merger>
